@@ -28,8 +28,8 @@ mkdir -p /scripts/r1soft
 cd !$
 git clone https://github.com/amitsdalal/r1soft-letsencrypt-auto.git
 
-0 5 1 * * /scripts/r1soft/SSLR1Soft.sh
-0 0 1 * * cd /scripts/r1soft ; git pull
+0 5 1 * * /scripts/r1soft/r1soft-letsencrypt-auto/SSLR1Soft.sh
+0 0 1 * * cd /scripts/r1soft/r1soft-letsencrypt-auto ; git pull
 ```
 
 You just have to make sure your web ports are not filtered, and nothing is running on port 80 (or you'll have to stop it before launching the script).
