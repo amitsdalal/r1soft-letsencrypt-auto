@@ -11,7 +11,7 @@ Here is what the script does :
 
 Just wget the script, change execution rights and launch it :  
 ```bash
-wget -N  ; chmod +x SSLR1Soft.sh
+wget -N https://raw.githubusercontent.com/amitsdalal/r1soft-letsencrypt-auto/master/SSLR1Soft.sh ; chmod +x SSLR1Soft.sh
 ```  
 ```bash
 ./SSLR1Soft.sh
