@@ -1,4 +1,4 @@
-# LetsEncryptForR1Soft
+## LetsEncryptForR1Soft
 
 Script that automatically setups a Let's Encrypt certificate for R1Soft, and handles renewal.
 
